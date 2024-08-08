@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio do Astronauta</title>
+    <link rel="shortcut icon" href="imagens/favicon-astro.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        #espaco  {
+            position: relative;
+            height: 100vh;
+            
+            /* background-position: center center;
+               background-attachment: fixed; 
+               background-image: url('imagens/espaco.jpg');
+            */
+
+            background: url("imagens/espaco.jpg") center center fixed;
+            background-size: cover;
+        }
+        #astronauta {
+            position: absolute;
+
+            /* background-image: url('imagens/astronauta.png');
+            background-position: center center;
+            background-repeat: no-repeat; */
+            
+            background: url("imagens/astronauta.png") center center no-repeat;
+            transform: translate(-50%, -50%);
+            height: 600px;
+            width: 500px;
+            left: 50%;
+            top: 50%;
+        }
+    </style>
 </head>
 <body>
-    
+    <section id="espaco">
+        <article id="astronauta">
+
+        </article>
+    </section>
 </body>
 </html>
