@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Semantic Tags</title>
+    <style>
+        body {
+            /* No gradiente não esquecer de separar os elementos dentro dos parenteses por vírgula */
+            background-image: linear-gradient(to bottom, #ffffff, #0b8cbf);
+            background-attachment: fixed;
+            font-size: 20px;
+            padding: 10px;
+            margin: 0%;
+        }
+        header{
+            text-align: center;
+        }
+        main {
+            background-color: #ffffff;
+            border: 5px;
+            border-style: solid;
+            border-color: #0b8cbf;
+            margin: 45px;
+            padding: 10px;
+            box-shadow: 1px 5px 3px black;
+        }
+        nav {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: inset 1px 0px 15px 5px rgba(0, 0, 0, 0.534);
+        }
+        nav > a {
+            color: #ffffff;
+            background-image: linear-gradient(#c7ade0, #BE99F2, #8658c7, #4E7FBF );
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            border: 20px;
+            margin-right: 100px;
+            padding: 5px;
+        }
+        nav > a:hover{
+            text-decoration: underline blanchedalmond;
+        }
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 25px;
+            padding: 10px;
+        }
+        h2 {
+            margin: 10px;
+        }
+        footer {
+            font-size: 20px;
+        }
+        footer > p {
+            background-image: linear-gradient(#c7ade0, #BE99F2, #8658c7, #4E7FBF );
+            font-family: 'Times New Roman', Times, serif;
+            margin: auto;
+            color: white;
+        }
+        p {
+            margin: 10px;
+            background-color: #f8fbfc;
+            font-family: 'Times New Roman', Times, serif;
+        }     
+    </style>
+</head>
+<body>
+    <!-- Essas são as tags atualmente utilizadas para construção de sites HTML5 de forma semântica -->
+
+     <!-- Tag Header = Faz parte do conteúdo, por isso deve está dentro do body. -->
+     <header>
+        <h1> Meu site</h1>
+        <nav>
+            <a href="#">Meu Perfil</a>
+            <a href="#">Projetos</a>
+            <a href="#">Mídias Sociais</a>
+            <a href="#">Canal no Youtube</a>
+            <a href="#">Site</a>
+        </nav>
+     </header>
+
+     <!-- Tag Main = Usado para determinar o conteúdo principal de um site. Dentro dessa estrutura estão tags como por exemplo <section> -->
+     <main>
+        <Section id="Assuntos">
+            <h2>Conteúdo da seção 1</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim asperiores esse, adipisci quo architecto cupiditate, nesciunt, recusandae hic nisi eos facere? Quaerat dolor incidunt laboriosam, excepturi recusandae illum doloribus repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor ab quam inventore aperiam, numquam explicabo laudantium, rem natus sint mollitia, saepe delectus. Dolorum tempore impedit aliquam iure molestiae expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus similique inventore, laborum tempora omnis reprehenderit perferendis commodi harum autem voluptatem vero! Error, cupiditate laboriosam. Ducimus nostrum autem unde ut?</p>
+         </Section>
+    </main>
+    <main>
+         <section id="Notícias">
+            <h2>Conteúdo da seção 2</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quisquam dicta, voluptate alias laudantium magnam tenetur! Placeat explicabo quae necessitatibus magni ducimus alias esse facere? Porro ratione eum maxime nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero quisquam molestiae, quaerat, nihil ullam eius necessitatibus rem assumenda sit nemo? Incidunt repellat quae expedita, vero illum earum voluptatum molestias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, voluptas. A tenetur accusamus deserunt soluta minima enim aliquam cum architecto, explicabo quas reprehenderit maiores magnam quaerat? Dignissimos perferendis officiis beatae.</p>
+         </section>
+    </main>
+    <main>
+        <section id="Notícias Externas">
+            <article>
+                <aside>
+                    <h2>Conteúdo da seção 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus id, ut facilis ipsum officiis exercitationem? Aliquid, soluta, aspernatur ratione voluptas maiores dolore eveniet repudiandae autem nam aperiam molestiae accusamus ab? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, iure dignissimos sed optio voluptatem est quos, sint cupiditate provident perferendis eligendi hic nam totam. Neque aut mollitia perferendis illo iste. Saiba mais em <a href="#">W3C</a></p>
+                    <p>Artigo escrito por Paulo Araújo.</p>
+                </aside> 
+             </article>
+         </section>
+    </main>
+      <br>
+      <hr>
+    <!-- Tag Footer = Usado para colocar itens de rodapé do site. -->
+     <footer>
+        <p>Desenvolvido por Elaine Souza</p>
+        <img src="cartao/cartaodevisita.png" alt="Cartão de visitas de Elaine">
+     </footer>
+</body>
+</html>

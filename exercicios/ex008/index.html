@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+       mark {
+            background-color: blueviolet;
+       } 
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a antiga tag B, não semântica.</p>
+    <p>Nessa frase temos um <strong>termo em destaque</strong> usando a semântica da tag <strong>STRONG</strong>.</p>
+    <hr>
+    <h2>Itálico ou Ênfase</h2>
+    <p>Nessa frase temos um <i>termo em itálico</i> não semântico, usando a antiga tag i.</p>
+    <p>Nessa frase temos um <em>termo em ênfase</em> usando a tag com semântica em.</p>
+    <hr>
+    <p><h2>Marcadores de texto</h2></p>
+    <p>Uma forma de deixar <mark>um trecho do texto marcado</mark>, é utilizar a tag MARK.</p>
+    <h3>Alterar a cor dos Marcadores</h3>
+    <p>Essa é uma das funções do CSS, pois se trata de uma estilização. </p>
+    <P>Para alterar a cor do marcador, basta usar a tag da CSS STYLE, dentro da tag <mark style="background-color: blueviolet;">MARK. Dessa forma tud o que estiver dentro desse parâmetro, ficará diferente.</mark></P>
+    <p>Para que essa parte do texto herde a mesma cor escolhida precisamos <mark>criar no HEAD do HTML, um seletor para a marcação MARK, que herdará  uma cor padrão para TODAS as demais tags de marcação. </mark></p>
+    <hr><h1>Texto grande e pequeno</h1>
+    <p>Vamos deixar essa palavra <big>grande</big> e essa palavra <small>pequena</small></p>
+    <hr><h2>Texto deletado</h2>
+    <p>Podemos marcar um texto como <del>excluído para indicar</del> que ele deve ser lido, mas não considerado.</p>
+    <hr><h2>Texto inserido</h2>
+    <p>Podemos marcar uma parte do <ins>texto para mostrar que ele foi inserido</ins> depois.</p>
+    <p>A tag U também pode ser usada para sublinhar porém ela é a forma <u>NÃO SEMÂNTICA</u>.</p>
+    <hr><h2>Texto Sobrescrito</h2>
+    <p>Usamos a tag SOB para escrever por exemplo: X<sup>20</sup>+3</p>
+    <h2>Texto Subscrito</h2>
+    <p>Usamos a tag SUB para escrever por exemplo: H<sub>2</sub>O </p>
+</body>
+</html>

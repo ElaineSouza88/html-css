@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* 
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        a {
+            color: rgb(0, 81, 255);
+            text-decoration: none;
+            font-weight: lighter;
+        }
+        a:visited {
+            color: blueviolet;
+        }
+        a:hover {
+            color: rgb(8, 8, 8);
+            text-decoration:double;
+            background-color: yellow;
+            text-decoration: underline;
+        }
+        a:active {
+            color: rgb(17, 17, 17);
+        }
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(24, 23, 23);
+        }
+        .especial {
+            background-color: aquamarine;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando linhas de links</h1>
+    <h2>Saiba mais acessando os perfis abaixo:</h2>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        <li><a href="https://www.google.com.br/?hl=pt-BR" target="_blank">Google</a></li>
+        <li><a href="https://www.cursoemvideo.com/" class="especial" target="_blank">Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Ancoras</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Links e Hyperlinks Externos</h1>  
+    <p>Para criar um hyperlink utilizamos ancoras, que farão a ligação entre os dados que o usuário quer burcar e a internet.
+    </p>
+    <h2>Site oficial da Mercedes AMG F1</h2>
+    <p>Mais informações no site<a href="https://www.mercedesamgf1.com/"> MercedesAmgf1.</a></p>
+    <hr>
+    <h2>Atributo hreflan</h2>
+    <p>Utilizado para orientar navegadores qual a linguagem oficial do site que o lin levará.</p>
+    <a href="https://www.w3.org/" hreflang="en">W3c.org</a>
+    <hr><h2>Usando o target</h2>
+    <p>Esse é o atributo responsável por controlar onde o link externo será aberto</p>
+    <p>Ele suporta os seguintes valores:</p>
+    <ul>
+        <li></li>
+        <li></li>
+        <li>_parent -> Similar ao top em uma referencia de janela mãe.</li>
+        <li>nome-do-frame, caso esteja usando frames, indicar o nome da janela que deseja abrir.</li>
+    </ul>
+    <h3>Exemplo</h3>
+    <ul>
+        <li>_blank -> Irá abrir o link em uma nova janela em branco.</li>
+    </ul>
+    <p>Mais informações no site<a href="https://www.mercedesamgf1.com/" target="_blank" rel="external"> MercedesAmgf1.</a></p>
+    <br>
+    <ul>
+        <li>_self -> Abre o link na janela ou frame atual.(Padrão)</li>
+    </ul>
+    <p>Mais informações no site<a href="https://www.mercedesamgf1.com/" target="_self" rel="external"> MercedesAmgf1.</a></p>
+    <br>
+    <ul>
+        <li>_top -> Vai desfazer todos os frames e abrir o destino no navegador completo.</li>
+    </ul>
+    <p>Mais informações no site<a href="https://www.mercedesamgf1.com/" target="_top" rel="external"> MercedesAmgf1.</a></p>
+    <br>
+    <ul>
+        <li>_parent -> Similar ao uso do top, em uma referência a janela mãe.</li>
+    </ul>
+    <p>Mais informações no site<a href="https://www.mercedesamgf1.com/" target="_parent" rel="external"> MercedesAmgf1.</a></p>
+    <hr>
+    <h2>Utilizando links internos</h2>
+    <p>Essa é a primeira página do meu site, mas você também pode acessar a minha <a href="pag002.html" href="next">Segunda página.</a></p>
+    <hr>
+    <p>Temos uma terceira página trazendo as <a href="noticias/pag003.html" target="_self">principais notícias</a> do dia.</p>
+</body>
+</html>

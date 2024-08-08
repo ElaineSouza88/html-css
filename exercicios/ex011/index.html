@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Flexíveis</h1>
+    <p>Tente abrir esse site em vários dispositivos ou aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagenspmg/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagenspmg/imagem-m.jpg" type="image/jpg">
+       <img src="imagenspmg/imagem-g.jpg" alt="Foto Grande">
+    </picture>
+    <hr>
+    <h1>Reproduzindo áudios</h1>
+    <p>Essa é uma música do gênero R&B que extraí do YouTube. </p>
+    <audio src="audiorb.mp3" controls autoplay ></audio>
+    <!--Compatibilidade de arquivos em áudio no HTML: MP3, WAV e OGG.-->
+    <hr>
+    <h2>Segunda maneira de inserir áudio</h2>
+    <p>Colocar a tag áudio e dentro da estrutura inserir os sources.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="audiorb.mp3" type="audio/mpeg">
+        <source src="audiorb.mp3" type="audio/ogg">
+        <source src="audiorb.mp3" type="audio/wav">
+    </audio>
+    <p>Infelizmente seu navegado não consegue reproduzir áudio.</p>
+    <p><a href="audiorb.mp3">Clique aqui</a> e faça o download.</p>
+    <hr>
+    <h2>Vídeos</h2>
+    <p>Utilizamos a tag &#10092 videos &#10093 para inserir aquivos de midia dentro dos sites.  </p>
+
+</body>
+</html>

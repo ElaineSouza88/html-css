@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Harlfiney';
+            src: url('fontes/Harlfiney.ttf') format('truetype'), url('fontes/cindylove1.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* Tipos de format()
+             _ opentype usado para arquivos (otf)
+             _ truetype (ttf)
+             _ embedded- opentype
+             _ truetype-aat (Apple Advanced Typography) 
+             _ svg */
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif
+        }
+        h1 {
+            font-family: 'Harlfiney', Times, serif;
+            font-size: 5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, mollitia. Fuga modi ipsam aliquid. Fuga delectus omnis nemo, fugit quis iste commodi sunt error temporibus id unde nihil molestiae consequuntur?</p>
+</body>
+</html>

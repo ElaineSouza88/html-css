@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas decoradas</title>
+    <style>
+        body{
+            background-image: linear-gradient(#CDC1D9,#BE99F2,#4E7FBF);
+            background-attachment: fixed;
+        }
+        h1 {
+            border: 20px solid black;
+            padding: 10px;
+            border-image-source: url(borda.png);
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+        }
+        p {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tipos de bordas decoradas</h1>
+    <p>Imagem criada no GIMP.</p>
+</body>
+</html>
