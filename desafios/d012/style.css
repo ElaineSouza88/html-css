@@ -21,7 +21,7 @@ header > h1 {
     vh --> Viewport Height (Altura) e 
     vw --> Viewport Width (Largura) */
 
-    font-size: 10vw;
+    font-size: 8vw;
     text-align: center;
     padding: 40px 0px 0px ;
     margin: 0px;
@@ -29,40 +29,62 @@ header > h1 {
 header > p {
     background-color: black;
     color: white;
-    font-size: 4vh;
+    font-size: 2.5vh;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 10px 0px 40px;
     margin: 0px;
 }
+
+
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
+    padding-top: 4.5vh;
+    padding-bottom: 4.5vh;
+    padding-left: 25px;
     line-height: 2em;
     font-family: 'Sriracha', 'Times New Roman', Times, serif;
-    font-size: 5vw;
+    font-size: 3vw;
 }
-section#imagem {
-    height: 460px;
-    width: 400px;
-    border: 1.5px solid black;
-    background-color: rgba(0, 0, 0, 0.151);
+section > p {
+    padding-bottom: 2em;
+}
+section.imagem > p {
+    color: white;
+    display: inline-block;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.623);
+    text-shadow: 4.5px 0px 3px black;
+}
+section#img001 {
     background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
+section#img002 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 footer {
     background-color: black;
     color: white;
-    font-size: 3vh;
+    font-size: 2.5vh;
     text-align: center;
-    font-family: 'arial', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 footer > p {
-    margin: 0px;
+    margin: 0px 2px;
 }
+
+
 a {
     color: white;
     text-decoration: none;
-    background-color: rgba(0, 255, 213, 0.466);
+    background-color: rgba(0, 255, 213, 0.712);
     border-radius: 5px;
     padding: 0px 3px;
 }
