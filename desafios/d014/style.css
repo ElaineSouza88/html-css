@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+thead {
+    background-color: rgb(136, 135, 135);
+    color: white;
+    font-size: large;
+}
+.medias {
+    background-color: rgb(136, 135, 135);
+    color: white;
+    font-size: large;
+    text-align: left;
+}
+.m1 {
+    background-color: rgb(136, 135, 135);
+    color: white;
+    font-size: large;
+}
+.m2 {
+    background-color: rgb(136, 135, 135);
+    color: white;
+    font-size: large;
+}
