@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+tr > td {
+    border: 1px solid black;
+    text-align: center;
+    width: 80px;
+}
