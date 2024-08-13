@@ -24,7 +24,7 @@ _**Módulo 2**_
 - [x] Seletores personalizados.
 - [x] Modelo de caixas.
 - [x] Projeto 1 - Site sobre a história do Android.
-- [x] Avaliação mod. 2.
+- [x] Avaliação mód. 2.
 
 _**Módulo 3**_
 - [x] O que é Git e Github.
@@ -35,10 +35,45 @@ _**Módulo 3**_
 - [x] Recursos sociais do Github.
 - [x] Clonado repositórios.
 - [x] Github em vários PCs.
-- [ ] Colocando imagens como plano de fundo.
-- [ ] Configurando posições de imagens de fundo.
-- [ ] Background-attachment e shorthands.
-- [ ] Projeto 2.
-- [ ] Utilizando parallax simples.
-- [ ] Inicialização em tabelas.
-- [ ] Tabelas responsivas.
+- [x] Colocando imagens como plano de fundo.
+- [x] Configurando posições de imagens de fundo.
+- [x] Background-attachment e shorthands.
+- [x] Projeto 2 - Site Cordel.
+- [x] Utilizando parallax simples.
+- [x] Inicialização em tabelas.
+- [x] Tabelas responsivas.
+- [x] Avaliação mód.3
+
+_**Módulo 4**_
+- [x] Iframes e sua usabilidade na HTML5.
+- [x] Configurando iframes.
+- [x] Conteúdo local no iframe.
+- [x] Navegação interna no iframe.
+- [ ] Conteúdo no iframe por códigos.
+- [ ] Incovenientes.
+- [ ] Tornando iframes mais seguros.
+- [ ] Dicas para uso de iframes melhores.
+- [ ] Projeto 3 -
+- [ ] Formulários em HTML.
+- [ ] Usabilidade Label.
+- [ ] Métodos GET e POST para formulários.
+- [ ] Criando caixas de texto e senha.
+- [ ] Elementos number, month date e time em formulários.
+- [ ] Compatibilidade com navegadores.
+- [ ] Formulários com telefone e e-mail.
+- [ ] Checkbox e Radio button em HTML.
+- [ ] Select, datalist, e textearea em HTML.
+- [ ] Elemento output em formulários HMTL.
+- [ ] O que são medias queries em CSS.
+- [ ] Criando um site com versão para impressoras.
+- [ ] Media Features com CSS.
+- [ ] Orientação de dispositivos.
+- [ ] Mobile First.
+- [ ] Site Mobile First.
+- [ ] Device breakpoints.
+- [ ] Menu responsivo com HTML e CSS.
+- [ ] Criação de cardápios.
+- [ ] Medias Queries para outros dispositivos.
+- [ ] Tela de login responsivo em HTML e CSS.
+- [ ] Criando formulário de login.
+- [ ] Avaliação mód 4.
