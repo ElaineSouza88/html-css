@@ -49,22 +49,22 @@ _**Módulo 4**_
 - [x] Configurando iframes.
 - [x] Conteúdo local no iframe.
 - [x] Navegação interna no iframe.
-- [ ] Conteúdo no iframe por códigos.
-- [ ] Incovenientes.
-- [ ] Tornando iframes mais seguros.
-- [ ] Dicas para uso de iframes melhores.
+- [x] Conteúdo no iframe por códigos.
+- [x] Incovenientes.
+- [x] Tornando iframes mais seguros.
+- [x] Dicas para uso de iframes melhores.
 - [ ] Projeto 3 -
-- [ ] Formulários em HTML.
-- [ ] Usabilidade Label.
-- [ ] Métodos GET e POST para formulários.
-- [ ] Criando caixas de texto e senha.
-- [ ] Elementos number, month date e time em formulários.
-- [ ] Compatibilidade com navegadores.
-- [ ] Formulários com telefone e e-mail.
-- [ ] Checkbox e Radio button em HTML.
-- [ ] Select, datalist, e textearea em HTML.
-- [ ] Elemento output em formulários HMTL.
-- [ ] O que são medias queries em CSS.
+- [x] Formulários em HTML.
+- [x] Usabilidade Label.
+- [x] Métodos GET e POST para formulários.
+- [x] Criando caixas de texto e senha.
+- [x] Elementos number, month date e time em formulários.
+- [x] Compatibilidade com navegadores.
+- [x] Formulários com telefone e e-mail.
+- [x] Checkbox e Radio button em HTML.
+- [x] Select, datalist, e textearea em HTML.
+- [x] Elemento output em formulários HMTL.
+- [x] O que são medias queries em CSS.
 - [ ] Criando um site com versão para impressoras.
 - [ ] Media Features com CSS.
 - [ ] Orientação de dispositivos.
