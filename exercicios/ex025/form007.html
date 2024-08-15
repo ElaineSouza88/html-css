@@ -7,6 +7,47 @@
 </head>
 <body>
     <h1>Outros elementos fora do input</h1><hr>
-    <form action="cadastro.php" method="get" autocomplete="on"></form>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+
+                <option value="">--- Escolha ---</option>
+                <optgroup label="Região Norte">
+                    <option value="AC">Acre</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="RO">Rondônia</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+        </p><br>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contador</option>
+                <option value="PROF">Professor</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label>
+            <textarea name="msg" id="imsg" cols="40" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
