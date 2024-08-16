@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* ESTILO PARA TODAS AS DEMAIS MIDIAS*/
+
+/* Breaking points
+Pequenas telas: max-width de 600px
+Celular: de 600px a 768px
+Tablets: 768px a 992px
+Desktop: 992px a 1200px
+Grandes telas: acima de 1200px  */
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+    main {
+        width: 768px;
+    }
+}
