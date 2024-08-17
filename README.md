@@ -71,9 +71,20 @@ _**Módulo 4**_
 - [x] Site Mobile First.
 - [x] Device breakpoints.
 - [x] Menu responsivo com HTML e CSS.
-- [ ] Criação de cardápios.
-- [ ] Medias Queries para outros dispositivos.
-- [ ] Tela de login responsivo em HTML e CSS.
-- [ ] Criando formulário de login.
-- [ ] Projeto 3 - Tela de login
-- [ ] Avaliação mód 4.
+- [x] Criação de menus.
+- [x] Medias Queries para outros dispositivos.
+- [x] Tela de login responsivo em HTML e CSS.
+- [x] Criando formulário de login.
+- [x] Projeto 3 - Tela de login
+- [x] Avaliação mód 4.
+
+_**Módulo 5**_
+- [x] Primeiros passos com Flexbox.
+- [ ] Direções e Eixos Flexbox CSS.
+- [ ] Empacotamento e Fluxo.
+- [ ] Centralização absoluta.
+- [ ] Alinhamento de elemento.
+- [ ] Anatomia dos itens.
+- [ ] Propriedade flex-basis em Flexbox.
+- [ ] Controle do tamanho de itens flexíveis.
+- [ ] Avaliação módulo 5.
