@@ -53,7 +53,6 @@ _**Módulo 4**_
 - [x] Incovenientes.
 - [x] Tornando iframes mais seguros.
 - [x] Dicas para uso de iframes melhores.
-- [ ] Projeto 3 -
 - [x] Formulários em HTML.
 - [x] Usabilidade Label.
 - [x] Métodos GET e POST para formulários.
@@ -65,15 +64,16 @@ _**Módulo 4**_
 - [x] Select, datalist, e textearea em HTML.
 - [x] Elemento output em formulários HMTL.
 - [x] O que são medias queries em CSS.
-- [ ] Criando um site com versão para impressoras.
-- [ ] Media Features com CSS.
-- [ ] Orientação de dispositivos.
-- [ ] Mobile First.
-- [ ] Site Mobile First.
-- [ ] Device breakpoints.
-- [ ] Menu responsivo com HTML e CSS.
+- [x] Criando um site com versão para impressoras.
+- [x] Media Features com CSS.
+- [x] Orientação de dispositivos.
+- [x] Mobile First.
+- [x] Site Mobile First.
+- [x] Device breakpoints.
+- [x] Menu responsivo com HTML e CSS.
 - [ ] Criação de cardápios.
 - [ ] Medias Queries para outros dispositivos.
 - [ ] Tela de login responsivo em HTML e CSS.
 - [ ] Criando formulário de login.
+- [ ] Projeto 3 - Tela de login
 - [ ] Avaliação mód 4.
