@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox</title>
+    <title>Alinhamentos</title>
     <style>
         div.container {
             background-color: lightcoral;
             display: flex;
+            height: 300px;
+
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: stretch;
+
         }
         div.item {
             background-color: blue;
             border: 2px solid black;
             text-align: center;
-            flex: auto;
         }
     </style>
 </head>
