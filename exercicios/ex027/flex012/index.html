@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplificando Flex</title>
+    <style>
+        div.container {
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.item {
+            background-color: blue;
+            border: 2px solid black;
+            text-align: center;
+            flex-basis:400px;
+        }
+        div#cxa {
+            /* flex-shrink: 1;
+            flex-grow: 1;
+            flex-basis:400px; */
+
+            flex: 1 0 400px;
+        }
+        div#cxb {
+            /* flex-shrink: 3;
+            flex-grow: 1;
+            flex-basis:400px; */
+
+            flex: 1 3 400px;
+        }
+        div#cxc {
+            /* flex-shrink: 6;
+            flex-grow:1;
+            flex-basis:400px; */
+
+            flex: 1 6 400px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="cxa">A</div>
+        <div class="item" id="cxb">B</div>
+        <div class="item" id="cxc">C</div>
+    </div>
+</body>
+</html>
