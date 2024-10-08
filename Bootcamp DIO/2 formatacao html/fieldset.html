@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praicando formulários</title>
+    <style>
+        .row {
+            margin:5px;
+        }
+        label {
+            width: 100px;
+            text-align: left;
+            display: inline-block;
+            padding: 10px;
+        }
+        button {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tag Fieldset e legend</h1>
+    <p>Usado para criar uma borda em um formulário para segmentar os dados aplicando uma legenda no topo.</p>
+    <form action="cadastro.php" method="post" target="_blank" onsubmit="alert('Formulário enviado !')"> 
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="row">
+                <label>Nome:</label> <input type="text" name="nome" maxlength="30"><br>
+                <label>Idade:</label> <input type="number" name="idade"><br>
+                <label>Senha:</label> <input type="password" name="senha"><br>
+            </div>
+        </fieldset>
+            <button type="submit">Enviar</button>  
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com Checkbox</title>
+</head>
+<body>
+    <h1>Usando checkbox</h1>
+    <form method="get">
+        <h2>Monte seu pedido nas opções abaixo!</h2>
+        <p>Sabor da pizza:</p>
+        <label>Calabresa</label><input type="checkbox" disabled name="sabor[]" value="calabresa"><br>
+        <label>Mussarela</label> <input type="checkbox" name="sabor[]" value="mussarela"><br>
+        <h2>Entrega</h2>
+        <p>Receber em casa?</p><input type="radio" name="entrega" value="sim">Sim <input type="radio" name="entrega" value="nao">Não <br>
+        <h2>Bebida</h2>
+        <label>Água</label><input type="radio" name="bebida" value="agua"><br>
+        <label>Refrigerante</label><input type="radio" name="bebida" value="refrigerante"><br>
+        <label>Nenhum</label><input type="radio" name="bebida" value="nenhum"><br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
