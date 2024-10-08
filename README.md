@@ -18,17 +18,17 @@
 * **Grid:** Organizei conteúdos em grids, proporcionando um layout mais estruturado e profissional.
 * **Responsividade:** Adaptei meus designs para diferentes tamanhos de tela utilizando media queries e unidades relativas como `em` e `rem`.
 
-### ️ Ferramentas e Recursos Úteis
+### ️ Ferramentas e Recursos Úteis ⚒️
 * **Editores de código:** Visual Studio Code.
 
 ###  Projetos
-* **[[Histótia em Cordel](https://projeto-cordel-ge7ngmy0c-elaines-projects-e839f5d2.vercel.app/)]** - Projeto desenvolvido contando um pequeno poema ao estilo cordel, para treinar efeito Parallax em imagens específicas em um documento HTML.
+* **[[História em Cordel](https://projeto-cordel-ge7ngmy0c-elaines-projects-e839f5d2.vercel.app/)]** - Projeto desenvolvido contando um pequeno poema ao estilo cordel, para treinar efeito Parallax em imagens específicas em um documento HTML.
 
-* **[[Projeto Minhas Midias Socias](https://projeto-social-lemon.vercel.app/)]** - Template interativo criado para demonstração das mídias sociais dos alunos. O intuito é como tornar uma aplicação simples e interativa aplicando efeitos básicos com CSS.
+* **[[Projeto Minhas Midias Socias](https://projeto-social-lemon.vercel.app/)]** - Template interativo criado para demonstração das mídias sociais dos alunos. O intuito é tornar uma aplicação simples e interativa aplicando efeitos básicos com CSS.
 
-**[[O que podemos fazer co HTML e CSS?](foto.html.jfif)]**
+### O que podemos fazer com HTML e CSS 🤷🏾‍♀️ ? 
 
-**Dicas:**
+**Dicas: 💡 **
 * **Use emojis:**  deixam seu README mais divertido e fácil de visualizar.
 * **Seja conciso:** Apresente os principais pontos de forma clara e objetiva.
 * **Utilize listas:** Facilita a leitura e organização das informações.
