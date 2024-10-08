@@ -28,7 +28,7 @@
 
 ### O que podemos fazer com HTML e CSS 🤷🏾‍♀️ ? 
 
-**Dicas: 💡 **
+**Dicas:** 💡
 * **Use emojis:**  deixam seu README mais divertido e fácil de visualizar.
 * **Seja conciso:** Apresente os principais pontos de forma clara e objetiva.
 * **Utilize listas:** Facilita a leitura e organização das informações.
