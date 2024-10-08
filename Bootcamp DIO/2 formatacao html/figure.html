@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags para imagens</title>
+</head>
+<body>
+    <h1>Tags para imagens</h1>
+    <h3>Figure</h3>
+    <p>Essa tag é um container que possibilita delimitar um espaço para uma imagem. É uma tag explicativa dos elementos img podendo acrescentar mais de 1 imagem na mesma tag ou agrupar em várias tags auxiliares para esse recurso, veja o exemplo da estrutura abaixo, utilizanodo o DevTools do Google Chrome.</p>
+    <figure>
+        <!-- <img src="img.tec.jpg" alt="foto de plano de fundo sobre tecnologia"> -->
+        <figcaption>Descrição da foto</figcaption>
+    </figure>
+    <p>Mesmo que possamos utilizar apenas a tag de <strong>img</strong> e a tag <strong>p</strong>, para realizar essa mesma configuração acima, porém não é semântico, utilizar dessa forma.</p>
+    <hr>
+    <h1>Tag Picture</h1>
+    <p>Essa tag possibilita múltiplas fontes para a mesma imagem, por exemplo, o atributo <strong>media</strong>, que possibilita alterar o tamanho da imagem quando a tela for menor que um determinado tamanho.</p>
+    <picture>
+        <source srcset="img.peq.jpg" media="(min-width: 900px)">
+        <img src="img.tec.jpg" alt="foto grande">
+    </picture>
+</body>
+</html>
