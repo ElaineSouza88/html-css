@@ -26,6 +26,8 @@
 
 * **[[Projeto Minhas Midias Socias](https://projeto-social-lemon.vercel.app/)]** - Template interativo criado para demonstração das mídias sociais dos alunos. O intuito é tornar uma aplicação simples e interativa aplicando efeitos básicos com CSS.
 
+* **[Todos os projetos](https://github.com/ElaineSouza88)**
+
 ### O que podemos fazer com HTML e CSS 🤷🏾‍♀️ ? 
 
 **Dicas:** 💡
