@@ -1,90 +1,52 @@
-# HTML5 e CSS3
+#  Minha Jornada HTML & CSS
 
- Curso de HTML5 e CSS3 do canal [Curso em Vídeo](https://www.cursoemvideo.com/) ministrado pelo professor Gustavo Guanabara 🖖 🤓
+ Curso de HTML5 e CSS3 promovido pelos canais do [Curso em Vídeo](https://www.cursoemvideo.com/) ministrado pelo professor Gustavo Guanabara 🖖 🤓, e o Bootcamp da [DIO](https://www.dio.me/) realizados em 2024.
 
-### Grade curricular
 
-_**Módulo 1**_  
-- [x] Como a internet funciona?
-- [x] Como a internet chega até a nossa casa?
-- [x] Diferença entre HTML / CSS e JavaScript.
-- [x] Parágrafos, quebras, símbolos e emojis.
-- [x] Introdução a CSS.
-- [x] Imagens e vídeos dinâmicos.
-- [x] Links e âncoras.
-- [x] Listas em HTML.
-- [x] Semântica e marcações da HTML.
-- [x] Hierarquia dos títulos.
-- [x] Imagens e favicons.
-- [x] Avaliação mod. 1.
+###  O que aprendi com HTML5
 
-_**Módulo 2**_
-- [x] O poder das cores.
-- [x] O que é tipografia.
-- [x] Seletores personalizados.
-- [x] Modelo de caixas.
-- [x] Projeto 1 - Site sobre a história do Android.
-- [x] Avaliação mód. 2.
+* **Estrutura:** Construí a espinha dorsal das minhas páginas web utilizando tags como `<html>`, `<head>`, `<body>` e seus elementos filhos.
+* **Semântica:** Aprendi a importância de utilizar tags semânticas como `<h1>`, `<nav>`, `<section>`, `<article>` para melhorar a acessibilidade e o SEO do meu site.
+* **Formulários:** Criei formulários interativos para coletar dados dos usuários, utilizando elementos como `<input>`, `<select>` e `<textarea>`.
+* **Tabelas:** Organizei dados complexos em tabelas claras e concisas, utilizando as tags `<table>`, `<tr>` e `<td>`.
 
-_**Módulo 3**_
-- [x] O que é Git e Github.
-- [x] Instalação e criação do repositório local usando o Github Desktop.
-- [x] Gerenciando repositórios.
-- [x] Hospedando sites no Githib pages.
-- [x] Manutenção em sites hospedados no Github.
-- [x] Recursos sociais do Github.
-- [x] Clonado repositórios.
-- [x] Github em vários PCs.
-- [x] Colocando imagens como plano de fundo.
-- [x] Configurando posições de imagens de fundo.
-- [x] Background-attachment e shorthands.
-- [x] Projeto 2 - Site Cordel.
-- [x] Utilizando parallax simples.
-- [x] Inicialização em tabelas.
-- [x] Tabelas responsivas.
-- [x] Avaliação mód.3
+###  Estilizando com CSS3
 
-_**Módulo 4**_
-- [x] Iframes e sua usabilidade na HTML5.
-- [x] Configurando iframes.
-- [x] Conteúdo local no iframe.
-- [x] Navegação interna no iframe.
-- [x] Conteúdo no iframe por códigos.
-- [x] Incovenientes.
-- [x] Tornando iframes mais seguros.
-- [x] Dicas para uso de iframes melhores.
-- [x] Formulários em HTML.
-- [x] Usabilidade Label.
-- [x] Métodos GET e POST para formulários.
-- [x] Criando caixas de texto e senha.
-- [x] Elementos number, month date e time em formulários.
-- [x] Compatibilidade com navegadores.
-- [x] Formulários com telefone e e-mail.
-- [x] Checkbox e Radio button em HTML.
-- [x] Select, datalist, e textearea em HTML.
-- [x] Elemento output em formulários HMTL.
-- [x] O que são medias queries em CSS.
-- [x] Criando um site com versão para impressoras.
-- [x] Media Features com CSS.
-- [x] Orientação de dispositivos.
-- [x] Mobile First.
-- [x] Site Mobile First.
-- [x] Device breakpoints.
-- [x] Menu responsivo com HTML e CSS.
-- [x] Criação de menus.
-- [x] Medias Queries para outros dispositivos.
-- [x] Tela de login responsivo em HTML e CSS.
-- [x] Criando formulário de login.
-- [x] Projeto 3 - Tela de login
-- [x] Avaliação mód 4.
+* **Seletores:** Dominei os seletores CSS para aplicar estilos a elementos específicos da minha página, como classes, IDs e atributos.
+* **Box Model:** Compreendi o modelo de caixa e como as propriedades `padding`, `border` e `margin` afetam o layout dos elementos.
+* **Flexbox:** Criei layouts responsivos e flexíveis utilizando o modelo de flexbox, que facilita o alinhamento e a distribuição de elementos.
+* **Grid:** Organizei conteúdos em grids, proporcionando um layout mais estruturado e profissional.
+* **Responsividade:** Adaptei meus designs para diferentes tamanhos de tela utilizando media queries e unidades relativas como `em` e `rem`.
 
-_**Módulo 5**_
-- [x] Primeiros passos com Flexbox.
-- [ ] Direções e Eixos Flexbox CSS.
-- [ ] Empacotamento e Fluxo.
-- [ ] Centralização absoluta.
-- [ ] Alinhamento de elemento.
-- [ ] Anatomia dos itens.
-- [ ] Propriedade flex-basis em Flexbox.
-- [ ] Controle do tamanho de itens flexíveis.
-- [ ] Avaliação módulo 5.
+### ️ Ferramentas e Recursos Úteis
+* **Editores de código:** Visual Studio Code.
+
+###  Projetos
+* **[[Histótia em Cordel](https://projeto-cordel-ge7ngmy0c-elaines-projects-e839f5d2.vercel.app/)]** - Projeto desenvolvido contando um pequeno poema ao estilo cordel, para treinar efeito Parallax em imagens específicas em um documento HTML.
+
+* **[[Projeto Minhas Midias Socias](https://projeto-social-lemon.vercel.app/)]** - Template interativo criado para demonstração das mídias sociais dos alunos. O intuito é como tornar uma aplicação simples e interativa aplicando efeitos básicos com CSS.
+
+**[[O que podemos fazer co HTML e CSS?](foto.html.jfif)]**
+
+**Dicas:**
+* **Use emojis:**  deixam seu README mais divertido e fácil de visualizar.
+* **Seja conciso:** Apresente os principais pontos de forma clara e objetiva.
+* **Utilize listas:** Facilita a leitura e organização das informações.
+* **Adicione links:** Para seus projetos, artigos ou tutoriais.
+
+**Para personalizar ainda mais:**
+* **Explore as opções de formatação do Markdown:** Itálico, negrito, código, citações, etc.
+* **Utilize tabelas:** Para organizar informações de forma visualmente atraente.
+* **Incorpore código:** Mostre exemplos de seu código HTML e CSS.
+
+**Ferramentas para criar README.md:**
+* **Editores de código:** A maioria dos editores oferece suporte ao Markdown.
+* **Sites geradores:** Existem diversas ferramentas online que facilitam a criação de README.md.
+
+**Lembre-se:** Um bom README.md é uma ótima forma de demonstrar suas habilidades e compartilhar seus conhecimentos com outras pessoas.
+
+**Gostaria de que eu te ajude a criar um README.md personalizado para o seu projeto?** Basta me fornecer mais detalhes sobre seus aprendizados e o que você deseja destacar. 
+
+**Qualquer dúvida, é só perguntar!**
+
+Com este exemplo e as dicas, você estará pronto para criar um README.md incrível para seus projetos HTML e CSS!
