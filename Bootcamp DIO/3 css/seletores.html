@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores em CSS</title>
+    <style>
+
+        * {
+            margin-top: 25px;
+        }
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      #lorem {
+        background-color: darkblue;
+        color: white;
+      }
+      .seletores {
+        color: blue;
+      }
+      .seletorNumeral {
+        color: red;
+      }
+      .textoMai{
+        text-transform: uppercase;
+      }
+
+      [title="Itens"] {
+        color: blue;
+      }
+      [title~="Dado"]  {
+        color: green;
+      }
+
+      [href^="https://"] {
+        background-color: lightblue;
+      }
+      [href$="Spotify"] {
+        background-color: rgb(15, 38, 247);
+        color: white;
+      }
+      [href*="fotos"] {
+        background-color: coral;
+      }
+    </style>
+</head>
+<body>
+    <h1>Tipos de seletores em CSS</h1>
+    <p id="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid non quidem, qui accusantium illo error, fugit accusamus laboriosam suscipit veniam sit consequatur culpa temporibus modi beatae aperiam, id adipisci. Quo?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab laborum quibusdam, tempore eos nobis voluptatem amet dolor est ut omnis alias, molestias dignissimos cumque corporis expedita inventore necessitatibus iste.</p>
+    <div>
+        <ul>
+            <li class="seletores"><strong>Seletor por tipo:</strong> Busca elementos por uma tag HTML específica.</li>
+            <li><strong>Seletor por ID:</strong> Busca elementos através do atributo "id".</li>
+            <li><strong>Seletor por Classe:</strong> Busca elementos através do atributo "class".</li>
+            <li><strong>Seletor Universal:</strong> Seleciona todos os elementos HTML.</li>
+            <li><strong>Seletor de atributo:</strong> Seleciona elementos que possuem um atributo específico em um documento HTML e possibilita também a busca de atributos com um valor específico.</li><br>
+            <li class="seletorNumeral textoMai">Item 1</li>
+            <li title="Itens">Item 2</li>
+            <li title="Dado Item">Item 3</li>
+            <li title="Item Dado">Item 4</li>
+        </ul>
+    </div><hr>
+    <h1>Manipulando estilos com seletores de atributos</h1>
+    <div>
+        <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root?_encoding=UTF8&language=pt_br" target="_blank">Prime Vídeo</a><br>
+        <a href="https://open.spotify.com/intl-/Spotify" target="_blank">Spotify</a><br>
+        <a href="https://pixabay.com/pt/fotos" target="_blank">Pixabay</a>
+    </div>
+</body>
+</html>
