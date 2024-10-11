@@ -7,10 +7,22 @@
     <style>
       p, div {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: red;
+        color: rgb(70, 6, 6);
       }
       p.texto {
         color: blue;
+      }
+      .fundo-azul li {
+        background-color: lightblue;
+      }
+      div > p {
+        background-color: lightblue;
+      }
+      div + p {
+        color: peru;
+      }
+      .fundo-rosa ~ p {
+        background-color: lightgray;
       }
     </style>
 </head>
@@ -26,5 +38,56 @@
             <li>Item 4</li>
         </ul>
     </div>
+    <hr>
+    <h1>Combinadores Descendentes</h1>
+    <p id="des">Usado para estilizar item filhos dentro de um item pai.</p>
+    <ul>
+      <li class="fundo-verde" id="list-1">Item 1
+        <ul>
+          <li>Sub item 1</li>
+          <li>Sub item 2</li>
+          <li>Sub item 3</li>
+        </ul>
+      </li>
+      <li class="fundo-azul" id="list-2">Item 2
+        <ul>
+          <li>Sub item 1</li>
+          <li>Sub item 2</li>
+          <li>Sub item 3</li>
+        </ul>
+      </li>
+      <li class="fundo-amarelo" id="list-3">Item 3
+        <ul>
+          <li>Sub item 1</li>
+          <li>Sub item 2</li>
+          <li>Sub item 3</li>
+        </ul>
+      </li>
+    </ul>
+    <hr>
+    <h1>Combinador filho</h1>
+    <div>
+      <p>Parágrafo 1 da div</p>
+      <p>Parágrafo 2 da div</p>
+      <span>
+        <p>Parágrafo 3 da div, dentro da tag span.</p>
+      </span>
+    </div>
+
+      <p>Parágrafo 4 fora da div.</p>
+      <p>Parágrafo 5 fora da div.</p>
+    <hr>
+    <h1>Combinador irmão</h1>
+    <p>Os irmãos adjacentes são os elementos  que estão diretamente depois dos seletores que definimos, localizados a esquerda. Adjacente significa posto ao lado de. São identificados pelo sinal de +.</p>
+    <div class="fundo-rosa">
+      <p>Parágrafo 1 da div</p>
+      <p>Parágrafo 2 da div</p>
+      <span>
+        <p>Parágrafo 3 da div, dentro da tag span.</p>
+      </span>
+    </div>
+
+    <p>Parágrafo 4 fora da div.</p>
+    <p>Parágrafo 5 fora da div.</p>
 </body>
 </html>
