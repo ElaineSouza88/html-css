@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        div {
+            width: 200px;
+            height: 300px;
+            border: 2px solid black;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        #fill {
+            object-fit: fill;
+        }
+        #contain {
+            object-fit: contain;
+        }
+        #cover {
+            object-fit: cover;
+        }
+        #none{
+            object-fit: none;
+        }
+        #scale-down {
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <h1>Object-fit: fill</h1>
+    <p>Para isso vamos utilizar a propriedade object-fit, fazendo com que a imagem que vamos inserir caiba exatamente dentro do espaço que delimitamos na div. O object-fit fill, é o padrão que os navegadores parametrizam de acordo com a imagem e a medida da div, padronizada na tag style.</p>
+    <code>object-fit: fill</code> (Padrão)
+    <div>
+        <img src="logomarca2.jfif" alt="logomarca" id="fill">
+    </div>
+    <p>Como determinamos que a largura e a altura dessa div fosse de 300 e 200px, a imagem ficou distorcida para que coubesse dentro dessa limitação.</p> <hr>
+    <h1>Object-fit: contain</h1>
+    <p>Leva em consideração a proporção original da imagem, e sua distorção será de acorod com o tamanho da imagem, para os casos de imagens muito pequenas, essa parametrização perderia sua qualidade, gerando os famosos pixels.</p>
+    <code>object-fit: contain</code>
+    <div>
+        <img src="logomarca2.jfif" alt="logomarca" id="contain">
+    </div> <hr>
+    <h1>Object-fit: cover</h1>
+    <p>Preenche o container com a imagem porém ela corta a parte da imagem que ultrapassar o tamano do container.</p>
+    <code>object-fit: cover</code>
+    <div>
+        <img src="logomarca2.jfif" alt="logomarca" id="cover">
+    </div> <hr>
+    <h1>Object-fit: none</h1>
+    <p>A imagem irá ignorar as medidas parametriadas do container, e aplicará seu tamanho original.</p>
+    <code>object-fit: none</code>
+    <div>
+        <img src="logomarca2.jfif" alt="logomarca" id="none">
+    </div> <hr>
+    <h1>Object-fit: scale-down</h1>
+    <p>Aplica os valores do menor valor entre os atributos de <strong>contain ou none</strong>, exibindo a imagem de acordo com a escala desse atributo. </p>
+    <code>object-fit: scale-down</code>
+    <div>
+        <img src="logomarca2.jfif" alt="logomarca" id="scale-down">
+    </div>
+</body>
+</html>
