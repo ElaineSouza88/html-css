@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Attachment</title>
+    <style>
+        body {
+            height: 200vh;
+        }
+        p {
+            color: white;
+        }
+        div {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            background-image: url(imagens/logomarca2.jfif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: auto;
+        }
+        #fixed {
+            background-attachment: fixed;
+        }
+        #scroll {
+            background-attachment: scroll;
+        }
+        #local {
+            background-attachment: local;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade background Attachment</h1>
+    <hr>
+    <code>background-attachment: Fixed</code>
+    <div id="fixed">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quasi repellat dolorem consequatur laboriosam, optio sunt et a, ipsum, neque quidem? Voluptates modi nulla quas cupiditate minima. Mollitia, voluptatum delectus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et ab totam corporis consequuntur labore eligendi culpa iste quo rem iure cum deleniti nostrum veniam, accusantium vel dolorum velit hic.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quidem consequatur laborum? Quidem ducimus quis quos dolor eum repellendus, iure aperiam. Dolorem illum iste sit exercitationem laborum ratione dicta nulla.</p>
+    </div>
+    <hr>
+    <code>background-attachment: scroll</code>
+    <div id="scroll">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quasi repellat dolorem consequatur laboriosam, optio sunt et a, ipsum, neque quidem? Voluptates modi nulla quas cupiditate minima. Mollitia, voluptatum delectus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et ab totam corporis consequuntur labore eligendi culpa iste quo rem iure cum deleniti nostrum veniam, accusantium vel dolorum velit hic.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quidem consequatur laborum? Quidem ducimus quis quos dolor eum repellendus, iure aperiam. Dolorem illum iste sit exercitationem laborum ratione dicta nulla.</p>
+    </div>
+    <hr>
+    <code>background-attachment: local</code>
+    <div id="local">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quasi repellat dolorem consequatur laboriosam, optio sunt et a, ipsum, neque quidem? Voluptates modi nulla quas cupiditate minima. Mollitia, voluptatum delectus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et ab totam corporis consequuntur labore eligendi culpa iste quo rem iure cum deleniti nostrum veniam, accusantium vel dolorum velit hic.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quidem consequatur laborum? Quidem ducimus quis quos dolor eum repellendus, iure aperiam. Dolorem illum iste sit exercitationem laborum ratione dicta nulla.</p>
+    </div>
+</body>
+</html>
