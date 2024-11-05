@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Clip</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            color: black;
+            font-size: 40px;
+            font-weight: 900px;
+            border: 15px dashed rgb(123, 238, 15);
+            background-color: blue;
+            padding: 30px;
+
+            --s: 200px; /* control the size*/
+            --c1: #ffffff;
+            --c2: #1095c1;
+            --_g: #0000 8%,var(--c1) 0 17%,#0000 0 58%;
+            background: linear-gradient(135deg,#0000 20.5%, var(--c1) 0 29.5%,#0000 0) 0 calc(var(--s)/4),linear-gradient( 45deg,var(--_g)) calc(var(--s)/2) 0,linear-gradient(135deg,var(--_g),var(--c1) 0 67%,#0000 0),linear-gradient( 45deg,var(--_g),var(--c1) 0 67%,#0000 0 83%,var(--c1) 0 92%,#0000 0), var(--c2); 
+                background-size: var(--s) var(--s);
+            }
+        #box {
+            background-clip: padding-box;
+        }
+        #border {
+            background-clip: border-box;
+        }
+        #content {
+            background-clip: content-box;
+        }
+        #text {
+            -webkit-background-clip: text;
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            background-clip: text;
+	        color: transparent;
+            border: 1px solid black;
+        }
+        #imagem {
+            -webkit-background-clip: text;
+            color: transparent;
+            border: 1px solid black;
+            background-clip: text;
+            background-image: url('https://img.freepik.com/fotos-gratis/ilustracao-abstrata-do-pano-de-fundo-com-formas-de-design-multicoloridas-geradas-por-ia_188544-15582.jpg');
+            width: 400px;
+            height: 400px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Clip</h1>
+    <hr>
+    <code>Background-clip: padding-box</code>
+    <div id="box">
+        <h1>Trilha CSS</h1>
+    </div>
+    <hr>
+    <code>Background-clip: border-box</code>
+    <div id="border">
+        <h1>Trilha CSS</h1>
+    </div>
+    <hr>
+    <code>Background-clip: content-box</code>
+    <div id="content">
+        <h1>Trilha CSS</h1>
+    </div>
+    <hr>
+    <h1>Aplicando planos de fundo para letras</h1>
+    <div id="text">
+        <h1>Plano de fundo para letras</h1>
+    </div>
+    <br>
+    <div id="imagem">
+        <h1>Plano de fundo para letras</h1>
+    </div>
+</body>
+</html>

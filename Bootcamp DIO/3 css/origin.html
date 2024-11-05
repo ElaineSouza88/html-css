@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Background Origin</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            border: 15px dashed rgb(29, 15, 238);
+            background-image: url(imagens/logomarca2.jfif);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 15px;
+        }
+        #box {
+            background-origin: padding-box;
+        }
+        #border {
+            background-origin: border-box;
+        }
+        #content {
+            background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade Background Origin</h1>
+    <hr>
+    <code>Background-origin: padding-box </code>
+    <div id="box">
+
+    </div>
+    <hr>
+    <code>Background-origin: padding-box </code>
+    <div id="border">
+
+    </div>
+    <hr>
+    <code>Background-origin: content-box</code>
+    <div id="content">
+
+    </div>
+</body>
+</html>
