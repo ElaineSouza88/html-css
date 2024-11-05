@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+div {
+    width: 300px;
+    height: 300px;
+    border: solid black;
+    background-image: url(imagens/logomarca2.jfif);
+    background-size: 120px;
+}
+
+#repeat {
+    background-repeat: repeat;
+}
+
+#repeat-x {
+    background-repeat: repeat-x;
+}
+
+#repeat-y {
+    background-repeat: repeat-y;
+}
+
+#space {
+    background-repeat: space;
+}
+
+#round {
+    background-repeat: round;
+}
+
+#no-repeat {
+    background-repeat: no-repeat;
+}
+
+#valor {
+    background-repeat: no-repeat space;
+}
