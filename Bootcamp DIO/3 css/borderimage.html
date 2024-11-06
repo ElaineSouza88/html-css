@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas com imagem</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            background-color: black;
+            border: 35px solid;
+        }
+        #source {
+            border-image-source: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwdVHKNlGoUTkU4NJZ4eKqV5Ry4pDDPfNfVQ&s');
+        }
+        #gradiente {
+            border-image-source: linear-gradient(blue, pink);
+        }
+        #slice {
+            border-image-source: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwdVHKNlGoUTkU4NJZ4eKqV5Ry4pDDPfNfVQ&s');
+            border-image-slice: 85;
+        }
+        #grad {
+            border-image-source: linear-gradient(blue, pink);
+            border-image-slice: 85;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aplciando arredondamento de bordas com imagens</h1>
+    <hr>
+    <code>border-image: source</code>
+    <div id="source">
+
+    </div>
+    <br>
+    <code>border-image: source com gradiente</code>
+    <div id="gradiente">
+
+    </div>
+    <hr>
+    <code>border-image: slice</code>
+    <div id="slice">
+
+    </div> <br>
+    <code>border-image: slice com gradiente</code>
+    <div id="grad">
+
+    </div>
+</body>
+</html>
