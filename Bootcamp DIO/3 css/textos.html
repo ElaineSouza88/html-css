@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        /* Propriedade text */
+        p {
+            text-transform: none;
+        }
+        #captalize {
+            text-transform: capitalize;
+        }
+        #uper {
+            text-transform: uppercase;
+        }
+        #lower {
+            text-transform: lowercase;
+        }
+        #line {
+            text-decoration-line: overline;  
+        }
+        .decor {
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: blue;
+            text-decoration-thickness: 5px;
+        }
+
+        /* Shorthand para o Text-decoration:
+        text-decoration: underline wavy red 2px; */
+
+        #recuo {
+            text-indent: 30px;
+        }
+
+        #letter{
+            letter-spacing: 5px;
+        }
+        #word {
+            word-spacing: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>text-transform</code></h1>
+    <p>Define quais são os caracteres que ficarão em maiúsculo ou minúsculo.</p>
+    <p id="captalize"><strong>Captalize:</strong> A primeira letra de cada palavra fica em maiúscula.</p>
+    <p id="uper"><strong>Upercase</strong>: Transforma todo o texto em maiúsculo.</p>
+    <p id="lower"><strong>Lowercase:</strong> Transforma todo o texto em minúsculo.</p>
+    <hr>
+    <h1>Propriedade <code>text-decoration</code></h1>
+    <p>Responsável por estilizar os textos de um documento HTML. Essa propriedade aceita valores como: Underline, sem decoração, linha no texto, linha acima do texto e etc.
+    </p>
+    <p>Essa propriedade possui algumas formas de estilo como:
+        <ul class="decor">
+            <li><code>Tex-decoration-line:</code> Formata o tipo de linha que poderá ter um elemento.</li><br>
+            <li><code>Tex-decoration-style:</code>Estiliza a linha aplicada em um elemento.</li><br>
+            <li><code>Tex-decoration-color:</code>Aplica cores as linha do texto.</li><br>
+            <li><code>Tex-decoration-thickness:</code> Aplica a espessura da linha de acordo com a unidade de medida.</li>
+        </ul>
+    </p>
+    <hr>
+    <h1>Propriedade <code>text-ident</code></h1>
+    <p>É a parametrização do recuo do texto dentro de um elemento. Exemplo:</p>
+    <p id="recuo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita in illum quos, quis eum deleniti totam vel, dicta necessitatibus temporibus quasi hic perspiciatis blanditiis et ab, facere voluptas! Commodi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, ea sequi laboriosam neque itaque, eum eius molestias quaerat ratione quisquam ipsa perspiciatis nihil accusamus dolorem natus. Natus non cupiditate quisquam.</p>
+    <hr>
+    <h1>Propriedade <code>letter-spacing</code></h1>
+    <p>Aplica espaçamentos entre as letras de um texto. Exemplo:</p>
+    <p id="letter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis deserunt excepturi atque, veniam, numquam velit dignissimos non voluptate voluptates nobis est tempora? Officia commodi veniam, dolores aliquid tempora sed velit!</p>
+    <h1>Propriedade <code>word-spacing</code></h1>
+    <p>Adiciona um espaço entre as palavras de um texto. Exemplo:</p>
+    <p id="word">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem esse adipisci culpa, totam sit ab veniam accusantium molestiae facilis illo aliquid ex alias maxime? Minima necessitatibus expedita placeat laborum unde.</p>
+</body>
+</html>

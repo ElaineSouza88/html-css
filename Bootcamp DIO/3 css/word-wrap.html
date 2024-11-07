@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade ord-wrap</title>
+    <style>
+        .padrao {
+            width: 130px;
+            background-color: purple;
+            color: white;
+        }
+        #normal {
+            word-wrap: normal;
+        }
+        #break-word {
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>word-wrap</code></h1>
+    <p>Essa propriedade permite parametrizar se uma palavra permite ficar dentro de um espaço pré-determinado pelo elemento, caso ela não caiba no espaço.</p>
+    <code>word-wrap: normal;</code>
+    <p id="normal" class="padrao">
+        Trilha CSS
+        TrilhaDeCSSTuhugkhhct
+        Trilha de CSS
+    </p>
+    <br>
+    <code>word-wrap: <break-word></break-word></code>
+    <p id="break-word" class="padrao">
+        Trilha CSS
+        TrilhaDeCSSTuhughhkhkhkkk
+        Trilha de CSS
+    </p>
+</body>
+</html>

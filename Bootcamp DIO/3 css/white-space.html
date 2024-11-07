@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade white space</title>
+    <style>
+        /* Propriedade white-space */
+        .padrao {
+            width: 200px;
+            background-color: rgb(48, 209, 8);
+        }
+        span{
+            background-color: green;
+        }
+
+        #normal {
+            white-space: normal;
+        }
+        #nowrap {
+            white-space: nowrap;
+        }
+        #pre {
+            white-space: pre;
+        }
+        #pre-line {
+            white-space: pre-line;
+        }
+        #pre-wrap {
+            white-space: pre-wrap;
+        }
+        #break-spaces {
+            white-space: break-spaces;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>white-space</code></h1>
+    <p>Estiliza os textos dos elementos, definindo como os espaços em brancos irão se comportar.</p>
+    <code>white-space: normal;</code><br>
+    <p>Valor padrão para a propriedade. Mesmo que tenha espaços em branco no texto, essa sequencia será combinada em apenas 1 espaço e branco, e a quebras de linha são ignoradas, a não ser que o texto alcance ao final da largura do elemento.</p>
+    <p class="padrao">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur        adipisicing elit. Facilis dolorum, excepturi suscipit nostrum animi magni! Natus, animi soluta ipsa recusandae, quidem nesciunt labore ratione a consectetur ad provident nostrum quas.
+        </span>
+    </p> <hr>
+    <code>white-space: nowrap;</code>
+    <p>A sequencia de espaços não terá quebras de linhas mesmo que ocupe todo o espaço do elemento.</p>
+    <p class="padrao">
+        <span id="nowrap">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, dolorum facilis minus voluptas suscipit quis nobis beatae aut repellat commodi expedita reprehenderit ipsum quidem nisi deserunt voluptatem facere. Voluptatibus, nobis!
+        </span>
+    </p><hr>
+    <code>white-space: pre;</code>
+    <p>Caso tenha espaços em brando no texto essa propriedade manterá a forma original, mesmo que ela ulrapasse o limite do elemento, quebrando as linhas automaticamente.<p class="padrao">
+        <span id="pre">
+        Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Alias         recusandae temporibus quas, porro fuga ut ab est. Voluptates doloribus vero      
+        lor    kkkk
+            
+        expedita delectus.
+        Officiis quod earum dolorum voluptatem possimus dolores vitae.
+        </span>
+    </p><hr>
+    <code>white-space: pre-line</code>
+    <p>Nessa configuração há quebra de linha em 2 momentos   quando ocorrer: Ou o texto ocupar todo o espaço do elemento ou na própria escrita, o texto estiver com espaços.</p>
+    <p class="padrao">
+        <span id="pre-line">
+            Lorem i  psum dolor sit amet consectetur adipisicing elit. Doloribus, autem inventore odit cumque, quo ipsum 
+            
+            quod harum veniam voluptas ipsam nostrum ea repellat aspernatur 
+                   deleniti assumenda labore, sequi culpa natus?
+        </span>
+    </p><hr>
+    <code>white-space: pre-wrap;</code>
+    <p>Nessa configuração os espaços em branco são preservados e o texto será quebrado apenas quando necessário.</p>
+    <p class="padrao">
+        <span id="pre-wrap">
+            Lorem ips   um dolor sit amet consectetur adipisicing elit. Maiores voluptates cumque, velit laborum ex minus      provident fugit ab voluptate   at amet illo ea quae quis odio! Fuga enim 
+            ipsam corrupti.
+        </span>
+    </p> <hr>
+    <code>white-space: break-space;</code>   
+    <p>Nessa última configuração ocorre a quebra quando necessário, mas quando o espaço ultrapassa o limite do container, ele joga a quebra para a próxima linha.</p>
+    <p class="padrao">
+        <span id="break-spaces">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non inventore optio repudiandae eaque, nostrum i     usto recusandae deserunt alias m                 aiores at deleniti aliquam voluptatum a           utem mollitia labore dolore ipsa ab adipisci!
+        </span>
+    </p> 
+</body>
+</html>
