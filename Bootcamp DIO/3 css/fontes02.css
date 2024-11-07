@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url(./global.css);
+
+h1 {
+    font-family: 'Sedgwick Ave Display';
+    font-size: medium;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Tamanhos do font-size que podem ser usados
+- xx-small
+- xx-large
+- medium
+- px
+- large
+*/
+
+/* Tipos de estilo do font-style
+- normal
+- oblique
+- italic
+ */
+
+ /* Tamanhos das configurações do font-weight
+ Irá depender da fonte escolhida. O navegador irá aumentar ou diminuir o tamanho das fontes desde que as mesmas tenham os valores disponíveis, ex: 100, 200, 300 etc, pois nem todas as fontes possuem esses tamanhos. */

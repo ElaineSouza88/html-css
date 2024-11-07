@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Fonte;
+    src: url(fontes/CrimsonText-BoldItalic.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Semi;
+    src: url(fontes/CrimsonText-SemiBoldItalic.ttf);
+}
+
+h1 {
+    font-family: Fonte;
+    font-weight: bold;
+}
+
+p {
+    font-family: Semi;
+    font-weight: bolder;
+}
